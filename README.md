@@ -3,7 +3,7 @@
 > **SEE THE MARKET. KNOW YOUR COMPETITORS. FIND YOUR CUSTOMERS.**  
 > *Nhìn rõ thị trường – Thấu hiểu đối thủ – Tìm đúng khách hàng.*
 
-Production URL Target: `https://giftdata.vercel.app`
+Production URL Target: `https://data.vercel.app`
 
 ---
 
@@ -56,7 +56,7 @@ npm run start
 
 Copy `.env.example` to `.env.local` and configure only verified credentials:
 
-- `NEXT_PUBLIC_SITE_URL`: Canonical base URL (default: `https://giftdata.vercel.app`)
+- `NEXT_PUBLIC_SITE_URL`: Canonical base URL (default: `https://data.vercel.app`)
 - `NEXT_PUBLIC_OFFICIAL_ZALO_URL`: Official Zalo OA or B2B consultation link
 - `CRM_WEBHOOK_URL` & `CRM_WEBHOOK_SECRET`: Server-side webhook endpoint for CRM lead ingestion
 - `GOOGLE_SHEETS_WEBHOOK_URL`: Apps Script / Webhook endpoint for Google Sheets logging

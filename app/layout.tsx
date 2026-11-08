@@ -7,7 +7,7 @@ import { MobileStickyBar } from '@/components/layout/MobileStickyBar';
 import { LeadCaptureModal } from '@/components/layout/LeadCaptureModal';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://giftdata.vercel.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://data.vercel.app'),
   title: {
     default: 'TRADEINTEL GLOBAL | Dữ Liệu Hải Quan Toàn Cầu & Tra Cứu Xuất Nhập Khẩu Theo Mã HS',
     template: '%s | TRADEINTEL GLOBAL',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     title: 'TRADEINTEL GLOBAL – Global Trade Intelligence & Customs Data Platform',
     description:
       'SEE THE MARKET. KNOW YOUR COMPETITORS. FIND YOUR CUSTOMERS. Khai thác dữ liệu thương mại và hải quan quốc tế để tìm đúng khách hàng, phân tích đối thủ và mở rộng thị trường.',
-    url: 'https://giftdata.vercel.app',
+    url: 'https://data.vercel.app',
   },
   robots: {
     index: true,
@@ -55,7 +55,7 @@ export default function RootLayout({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'TRADEINTEL GLOBAL',
-    url: 'https://giftdata.vercel.app',
+    url: 'https://data.vercel.app',
     slogan: 'SEE THE MARKET. KNOW YOUR COMPETITORS. FIND YOUR CUSTOMERS.',
     description:
       'Global Trade Intelligence & Customs Data Platform supporting B2B importer/exporter discovery, HS Code transaction lookup, competitor trade intelligence, and market analytics.',
