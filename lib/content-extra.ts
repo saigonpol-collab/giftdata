@@ -1,8 +1,6 @@
 import {
   FAQItem,
-  HowItWorksStep,
   IndustryVertical,
-  PlaybookScenario,
 } from "@/types";
 
 export const INDUSTRY_VERTICALS: IndustryVertical[] = [
